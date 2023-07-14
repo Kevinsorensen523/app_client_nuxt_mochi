@@ -584,19 +584,19 @@
   "resolved" "https://registry.npmjs.org/@nuxt/devalue/-/devalue-2.0.2.tgz"
   "version" "2.0.2"
 
-"@nuxt/devtools-kit@0.6.6":
-  "integrity" "sha512-6P00gcvbGQVEzHr+Xvpymqsbhg1rU64wQDRG0oLBXW/pcuJO/hyppowGr8Tvt3Xn6TRYJcgk1wkBa1wL9U+Z+g=="
-  "resolved" "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.6.6.tgz"
-  "version" "0.6.6"
+"@nuxt/devtools-kit@0.6.7":
+  "integrity" "sha512-DEJBLspLRr3zFu/DAHs8Q1o9tgzELt24qDqsuqTEKqcw/2j1iu1TefvUdmXkJo6s8Qk3GI6e3QxrvtEE3mwKqA=="
+  "resolved" "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.6.7.tgz"
+  "version" "0.6.7"
   dependencies:
     "@nuxt/kit" "^3.6.1"
     "@nuxt/schema" "^3.6.1"
     "execa" "^7.1.1"
 
-"@nuxt/devtools-wizard@0.6.6":
-  "integrity" "sha512-hzTVPaAd6PXyebk0bCjEwtdsXsoiSJnLCcZmlSLFmTNdVSmyb2tHNOuYTzZdobrl0iArjVIBaIqgFIWjYBQKNg=="
-  "resolved" "https://registry.npmjs.org/@nuxt/devtools-wizard/-/devtools-wizard-0.6.6.tgz"
-  "version" "0.6.6"
+"@nuxt/devtools-wizard@0.6.7":
+  "integrity" "sha512-dN+3UVxsGk3Vx0T6tN+UQ1b7FjWHk3N4WWmnKOACa4pHt77RYHFzndk60KDlKq9I/bn905pghsqwvXmPfbSpJA=="
+  "resolved" "https://registry.npmjs.org/@nuxt/devtools-wizard/-/devtools-wizard-0.6.7.tgz"
+  "version" "0.6.7"
   dependencies:
     "consola" "^3.2.2"
     "diff" "^5.1.0"
@@ -610,20 +610,20 @@
     "rc9" "^2.1.1"
     "semver" "^7.5.3"
 
-"@nuxt/devtools@latest":
-  "integrity" "sha512-bYPKFbsHH6RQ9tXt15jwuw6UQqU4PMStEzO2VYxMrP+rw5tDOD4wdf8qoMVi17c3RrxjvL8TlS6roBSApndx3g=="
-  "resolved" "https://registry.npmjs.org/@nuxt/devtools/-/devtools-0.6.6.tgz"
-  "version" "0.6.6"
+"@nuxt/devtools@^0.6.7":
+  "integrity" "sha512-ATjkNfceG+8DQ8kR6O3UC9MjFfUd39aeFgKA+Z6pjG8Z7e3vwK92oZCSeQ8DQRi4/2kwa/UPjN8pNclyc6FlbQ=="
+  "resolved" "https://registry.npmjs.org/@nuxt/devtools/-/devtools-0.6.7.tgz"
+  "version" "0.6.7"
   dependencies:
-    "@nuxt/devtools-kit" "0.6.6"
-    "@nuxt/devtools-wizard" "0.6.6"
+    "@nuxt/devtools-kit" "0.6.7"
+    "@nuxt/devtools-wizard" "0.6.7"
     "@nuxt/kit" "^3.6.1"
     "birpc" "^0.2.12"
     "boxen" "^7.1.0"
     "consola" "^3.2.2"
     "execa" "^7.1.1"
     "fast-folder-size" "^2.1.0"
-    "fast-glob" "^3.2.12"
+    "fast-glob" "^3.3.0"
     "get-port-please" "^3.0.1"
     "global-dirs" "^3.0.1"
     "h3" "^1.7.1"
@@ -642,8 +642,8 @@
     "rc9" "^2.1.1"
     "semver" "^7.5.3"
     "sirv" "^2.0.3"
-    "unimport" "^3.0.11"
-    "vite-plugin-inspect" "^0.7.31"
+    "unimport" "^3.0.12"
+    "vite-plugin-inspect" "^0.7.32"
     "vite-plugin-vue-inspector" "^3.4.2"
     "wait-on" "^7.0.1"
     "which" "^3.0.1"
@@ -4970,7 +4970,7 @@
   optionalDependencies:
     "fsevents" "~2.3.2"
 
-"nuxt@^3.5.1", "nuxt@^3.6.1":
+"nuxt@^3.6.1":
   "integrity" "sha512-IznN+nogCvDuI3IpjXSphdcGBTEeAdpG1iv01inXMWUAeViXhx6FpfPJ2BjQ1WBuahwcUkV2xmMhB3gsv3SLhw=="
   "resolved" "https://registry.npmjs.org/nuxt/-/nuxt-3.6.1.tgz"
   "version" "3.6.1"
@@ -5807,9 +5807,9 @@
     "picomatch" "^2.2.1"
 
 "recast@^0.23.2":
-  "integrity" "sha512-Qv6cPfVZyMOtPszK6PgW70pUgm7gPlFitAPf0Q69rlOA0zLw2XdDcNmPbVGYicFGT9O8I7TZ/0ryJD+6COvIPw=="
-  "resolved" "https://registry.npmjs.org/recast/-/recast-0.23.2.tgz"
-  "version" "0.23.2"
+  "integrity" "sha512-HbCVFh2ANP6a09nzD4lx7XthsxMOJWKX5pIcUwtLrmeEIl3I0DwjCoVXDE0Aobk+7k/mS3H50FK4iuYArpcT6Q=="
+  "resolved" "https://registry.npmjs.org/recast/-/recast-0.23.3.tgz"
+  "version" "0.23.3"
   dependencies:
     "assert" "^2.0.0"
     "ast-types" "^0.16.1"
@@ -6695,7 +6695,7 @@
     "@unhead/shared" "1.1.29"
     "hookable" "^5.5.3"
 
-"unimport@^3.0.10", "unimport@^3.0.11":
+"unimport@^3.0.10", "unimport@^3.0.11", "unimport@^3.0.12":
   "integrity" "sha512-wETYjro+wK0lGlate7JNDu4OI89m6hNt2bfqL8ysAGgStXyIplISZrktAqr2psfY9/ft/jU5HWatk7wZeUUPdQ=="
   "resolved" "https://registry.npmjs.org/unimport/-/unimport-3.0.12.tgz"
   "version" "3.0.12"
@@ -6895,7 +6895,7 @@
     "@types/eslint" "^8.4.5"
     "rollup" "^2.77.2"
 
-"vite-plugin-inspect@^0.7.31":
+"vite-plugin-inspect@^0.7.32":
   "integrity" "sha512-TqRLHwOM3FTJPOGCCHJmub4SVVogSjZ9LSDo1Q6WeN2Zvc7HB7tr7cqYlAyStXCI90KvVnb1BRwI22+HXlghXQ=="
   "resolved" "https://registry.npmjs.org/vite-plugin-inspect/-/vite-plugin-inspect-0.7.32.tgz"
   "version" "0.7.32"
@@ -7098,9 +7098,9 @@
     "webidl-conversions" "^3.0.0"
 
 "which-typed-array@^1.1.2":
-  "integrity" "sha512-w9c4xkx6mPidwp7180ckYWfMmvxpjlZuIudNtDf4N/tTAUB8VJbX25qZoAsrtGuYNnGw3pa0AXgbGKRB8/EceA=="
-  "resolved" "https://registry.npmjs.org/which-typed-array/-/which-typed-array-1.1.9.tgz"
-  "version" "1.1.9"
+  "integrity" "sha512-uxoA5vLUfRPdjCuJ1h5LlYdmTLbYfums398v3WLkM+i/Wltl2/XyZpQWKbN++ck5L64SR/grOHqtXCUKmlZPNA=="
+  "resolved" "https://registry.npmjs.org/which-typed-array/-/which-typed-array-1.1.10.tgz"
+  "version" "1.1.10"
   dependencies:
     "available-typed-arrays" "^1.0.5"
     "call-bind" "^1.0.2"
