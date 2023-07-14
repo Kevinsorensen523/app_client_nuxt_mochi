@@ -1,6 +1,6 @@
 <!-- Ivan - 14 Juli 2023 -->
 <script setup>
-import { Product } from '@/data/ProductData'
+import { Product } from '@/data/productData'
 
 const ProductData = computed(() => {
     return Product
