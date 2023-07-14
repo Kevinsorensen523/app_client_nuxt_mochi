@@ -3,6 +3,6 @@
 
 <template>
   <div>
-    <h1>This is Index Page!</h1>
+    <h1>This is main Page!</h1>
   </div>
 </template>
