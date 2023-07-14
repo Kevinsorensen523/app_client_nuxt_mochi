@@ -1,7 +1,4 @@
 <script setup lang="ts">
-// import { useGoogleapis } from 'composables/useGoogleapis';
-const { getSheetData } = useGoogleapis();
-console.log('useGoogleapis', getSheetData());
 </script>
 
 <template>
