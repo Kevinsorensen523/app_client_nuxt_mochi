@@ -50,7 +50,7 @@
   .photo-row img {
     width: 16.66667%;
     object-fit: cover;
-    /* Your custom styles here */
+    
   }
   
   .mochi-image {
