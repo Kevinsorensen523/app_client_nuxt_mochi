@@ -23,6 +23,8 @@
     "@vueuse/core": "^10.2.1",
     "googleapis": "^120.0.0",
     "sass": "^1.63.6",
-    "vue-awesome-swiper": "^5.0.1"
+    "swiper": "^10.0.4",
+    "vue-awesome-swiper": "^5.0.1",
+    "vue-carousel": "^0.18.0"
   }
 }
