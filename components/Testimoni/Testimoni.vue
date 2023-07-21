@@ -1,10 +1,10 @@
 <template>
     <div class="testimoni relative">
-      <div class="mochi-image md:flex md:justify-center md:z-10">
+      <div class="mochi-image md:flex md:justify-center md:z-10 mb-0 sm:mb-4 md:inset-10 md:mt-0">
         <img src="~/assets/Testimoni/mochiOnWood.png" alt="mochiOnWood" class="w-1/3 sm:w-1/2 md:w-1/4" />
       </div>
   
-      <div class="oval-pink md:absolute md:inset-0 md:z-[-1] md:w-128 w-full md:h-100 h-24 fixed">
+      <div class="oval-pink md:absolute md:inset-0 z-[-1] md:w-128 w-full md:h-100 h-24 relative">
         <svg width="100%" height="100%" viewBox="0 0 1920 113" fill="#FBBBC2" xmlns="http://www.w3.org/2000/svg">
           <path d="M0 113C960 -37.6667 1536 -37.6667 1920 113H0Z"/>
         </svg>
@@ -12,7 +12,7 @@
   
       <div class="background-pink grid md:grid-cols-4 grid-cols-10 md:mt-7 md:min-h-[90vh] min-h-[80vh]">
         <div class="relative col-span-1"></div>
-        <div class="judul text-2xl md:text-4xl z-10 md:col-span-2 col-span-10 text-center">
+        <div class="judul text-2xl md:text-4xl z-10 md:col-span-2 col-span-10 text-center md:mt-0 mt-[-28px]">
           <strong>
             <span style="color: #67002B">What our customers say</span>
             <br />
@@ -22,7 +22,7 @@
             </div>
           </strong>
         </div>
-
+  
         <div class="md:panah md:relative hidden sm:block col-span-1">
           <span class="text-black absolute left-14 top-8 -skew-y-6">click here to</span>
           <span class="text-black absolute left-16 top-12 -skew-y-6">see more</span>
@@ -65,18 +65,16 @@
     .mochi-image {
       width: 100%;
       z-index: 1;
-
       max-width: 2000px;
-
-      margin-left: auto;
-      margin-right: auto;
+      margin-bottom: 0;
     }
   
     @media (max-width: 640px) {
       .mochi-image {
-        margin-left: auto;
-        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: 50px;
         width: 200%;
+        z-index: 1;
       }
   
       .oval-pink {
@@ -86,9 +84,12 @@
   
     .oval-pink {
       margin-top: 80px;
-      
-      @media (max-width: 640px) {
-      margin-top: 0px;
+    }
+  
+    @media (max-width: 640px) {
+      .oval-pink {
+        margin-top: -70px;
+        margin-bottom: -40px;
       }
     }
   
@@ -114,10 +115,6 @@
       width: 70%;
       justify-self: end;
     }
-  
-    .smallBlobRight {
-      margin-top: -200px;
-      width: 90%;
-    }
+
   </style>
   
